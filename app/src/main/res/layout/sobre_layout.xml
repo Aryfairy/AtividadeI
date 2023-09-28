@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Sobre">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/mountains" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Montanha Colorida Peru, Rainbow Mountain, Montaña de Colores, Montanha das 7 cores, Montanha do Arco-íris…
+
+Enfim, não importa o nome que este destino receba pelas redes e entre os viajantes, a Vinicunca (nome verdadeiro) é, sem sombra de dúvidas, uma das atrações mais impressionantes que você pode conhecer em seu roteiro pelo país andino.
+
+No entanto, essa paisagem, digna de um belíssimo papel de parede, ainda gera algumas dúvidas básicas entre os turistas que visitam o Peru. Afinal, como chegar lá, o que é preciso para ir, como é o percurso, entre outros pontos importantes? Pensando nisso, nós decidimos montar um miniguia com todas essas informações e outras dicas para você incluir a famosa Montanha colorida Peru em seu roteiro pelo país. Bora conferir?" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Deixe sua opinião"
+        android:inputType="text"
+        />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

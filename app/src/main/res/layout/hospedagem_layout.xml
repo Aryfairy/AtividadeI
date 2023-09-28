@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login_Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hotel" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Melhor localização, melhores preços, melhor café da manhã, quartos confortáveis, wifi gratuito, encontrar o hotel ideal para as suas férias pode ser um verdadeiro desafio, certo? Aí é que você se engana! No nosso hotel você encontra tudo isso e muito mais. Também temos academia, spa e piscina para você aproveitar cada momento da sua estadia conosco! ESTAMOS AGUARDANDO SUA RESERVA!" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ir para o site" />
+</LinearLayout>
