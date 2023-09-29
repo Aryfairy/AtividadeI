@@ -14,11 +14,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
+        android:paddingTop="3sp"
         android:text="Welcome Back"
-        android:textSize="37sp"
-        android:textStyle="bold"
         android:textColor="#CDC7C7"
-        android:paddingTop="3sp"/>
+        android:textSize="37sp"
+        android:textStyle="bold" />
 
 
     <TextView
@@ -39,20 +39,18 @@
         android:layout_gravity="center"
         android:paddingTop="25dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/logo"
-
-        />
+        android:src="@drawable/logo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:padding="5sp"
+        android:paddingBottom="50sp"
         android:text="COMPANY NAME"
         android:textColor="#CDC7C7"
         android:textSize="26sp"
-        android:textStyle="bold"
-        android:paddingBottom="50sp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
@@ -60,35 +58,34 @@
         android:gravity="center"
         android:text="S O L O G A M  H E R E"
         android:textColor="#8F8F8F"
-        android:textSize="13sp"
-
-        />
+        android:textSize="13sp" />
 
     <Button
+        android:id="@+id/btnSingIn"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
-        android:text="Sign In"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="60dp"
         android:layout_marginBottom="15dp"
-        android:backgroundTint="#EF641A"/>
+        android:backgroundTint="#EF641A"
+        android:text="Sign In" />
 
     <Button
-
+        android:id="@+id/btnSingUp"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
-        android:text="Sign up"
         android:layout_marginLeft="80dp"
-        android:backgroundTint="#EF641A"/>
+        android:backgroundTint="#EF641A"
+        android:text="Sign up" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign in with Social Media"
-        android:textSize="14sp"
-        android:textColor="#CDC7C7"
         android:gravity="center"
-        android:paddingTop="60dp"/>
+        android:paddingTop="60dp"
+        android:text="Sign in with Social Media"
+        android:textColor="#CDC7C7"
+        android:textSize="14sp" />
 
     <ImageView
         android:layout_width="206dp"

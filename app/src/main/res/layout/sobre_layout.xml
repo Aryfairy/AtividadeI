@@ -25,8 +25,7 @@ No entanto, essa paisagem, digna de um belíssimo papel de parede, ainda gera al
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Deixe sua opinião"
-        android:inputType="text"
-        />
+        android:inputType="text" />
 
     <RatingBar
         android:layout_width="wrap_content"
