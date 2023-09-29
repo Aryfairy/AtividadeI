@@ -12,39 +12,64 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="120dp"
-        android:layout_marginTop="140dp"
         android:layout_gravity="center"
+        android:layout_marginTop="140dp"
         android:scaleType="centerCrop"
         android:src="@drawable/logo"
 
         />
 
     <Button
-        android:id="@+id/btn"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="80dp"
         android:layout_marginTop="60dp"
         android:layout_marginBottom="15dp"
         android:backgroundTint="#1D421885"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/white"
+        android:drawableEnd="@drawable/baseline_person"
         android:hint="User Name"
+        android:inputType="textPersonName"
         android:textAlignment="viewStart"
+        android:textColorHint="@color/white"
 
         />
 
     <Button
-
         android:layout_width="260dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="80dp"
         android:backgroundTint="#1D421885"
+        android:drawableEnd="@drawable/baseline_key"
         android:hint="Password"
-        android:textColorHint="@color/white"
         android:inputType="textPassword"
         android:textAlignment="viewStart"
-        />
+        android:textColorHint="@color/white" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:text="Remember Password"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:backgroundTint="#E4673F"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColorHint="@color/white" />
+
+
+    <Button
+        android:layout_width="191dp"
+        android:layout_height="160dp"
+        android:backgroundTint="#00E4673F"
+        android:text="Forget Password?"
+        android:textColorHint="@color/white" />
 
     <TextView
         android:layout_width="match_parent"
